@@ -1,5 +1,5 @@
 ---
-title: "From legacy ADC to cloud native ADC serials"
+title: "From legacy ADC to cloud native ADC series"
 authors:
 - admin
 date: "2019-08-26T00:00:00Z"
