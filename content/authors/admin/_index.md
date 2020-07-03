@@ -1,7 +1,8 @@
 ---
 # Display name
 name: Jing Lin (林静)
-avatar_image: "user-full.png"
+avatar_image: ""
+#user-full.png
 # Username (this should match the folder name)
 authors:
 - admin
