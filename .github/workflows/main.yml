@@ -26,7 +26,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} # 这里的 ACTIONS_DEPLOY_KEY 则是上面设置 Private Key的变量名
-          external_repository: myf5/linjing.io # Pages 远程仓库 
+          external_repository: myf5/myf5.github.io # Pages 远程仓库 
           publish_dir: "public"
           keep_files: false # remove existing files
           publish_branch: master  # deploying branch
