@@ -1,6 +1,6 @@
 ---
 title: 'NGINX and oAuth2/OIDC series one'
-subtitle: 'Tranlated by google'
+subtitle: 'Translate by google'
 summary: NGINX as different role in oAuth/OIDC
 authors:
 - admin

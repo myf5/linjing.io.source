@@ -1,6 +1,6 @@
 ---
 title: 'Istio sidecar iptables and traffic steering detail'
-subtitle: 'Tranlated by google'
+subtitle: 'Translate by google'
 summary: How istio manipulates the traffic.
 authors:
 - admin
