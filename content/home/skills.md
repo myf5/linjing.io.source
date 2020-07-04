@@ -24,13 +24,13 @@ subtitle = "Good self learning ability, balance on infrastructure and applicatio
   icon = "dharmachakra"
   icon_pack = "fas"
   name = "Kubernetes"
-  parcent = "75%"  
+  parcent = "80%"  
   
 [[feature]]
   icon = "code-branch"
   icon_pack = "fas"
   name = "Devops/Automation"
-  parcent = "70%"
+  parcent = "75%"
   
 [[feature]]
   icon = "server"
@@ -42,7 +42,7 @@ subtitle = "Good self learning ability, balance on infrastructure and applicatio
   icon = "buromobelexperte"
   icon_pack = "fab"
   name = "Service Mesh"
-  parcent = "70%"
+  parcent = "75%"
 
 [[feature]]
   icon = "sliders-h"
