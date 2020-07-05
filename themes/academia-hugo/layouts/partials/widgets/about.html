@@ -25,6 +25,9 @@
         itemprop="image" alt="Avatar">
       {{ else }}
       {{ $avatar_image := .page.Params.avatar_image }}
+      <style>
+      img{border:1px solid #09C; border-radius:500px; padding:5px;}
+      </style>
       <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
       {{ end }}
     </div>

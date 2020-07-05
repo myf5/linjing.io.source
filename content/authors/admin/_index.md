@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Jing Lin (林静)
-avatar_image: ""
+avatar_image: "linjing-photo.jpg"
 #user-full.png
 # Username (this should match the folder name)
 authors:
@@ -10,6 +10,8 @@ authors:
 btn:
 - url : "https://www.linkedin.com/in/jing-lin-218b3915/"
   label : "Connect on Linkedin"
+- url : "https://cnadn.net/contactme"
+  label : "Send me message"
 
 # Is this the primary user of the site?
 superuser: true
@@ -42,7 +44,7 @@ education:
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-# social:
+#social:
 # - icon: envelope
 #   icon_pack: fas
 #   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
@@ -54,7 +56,7 @@ education:
 #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 # - icon: github
 #   icon_pack: fab
-#   link: https://github.com/gcushen
+#   link: https://github.com/myf5
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
@@ -79,6 +81,6 @@ I have strong self-learning ability, keep passion to new technology. Also I am b
 
 I am familiar with private cloud like openstack/SDN,Vmware. Also good on docker, k8s. I am CNCF Certified Kubernetes Administrator (CKA #664), also own CCNP/MCSE/JNCIS certificates. I am the first one F5 certified security solution expert in China. Beside those, I am also interested to open source technology like service mesh(Istio,envoy), observability(ELK, Prometheous, Grafana) etc. I am Cloud Native advocate.
 
-![reviews](../../img/certifacates.jpg)
+![reviews](../../img/certifacates-jing.jpg)
 
 I believe no pain no gain. There is no short path to success. Moving forward and just do it, Never give up.
