@@ -1,6 +1,6 @@
 ---
 title: 'How an application delivery veteran see Envoy in the era of cloud native'
-subtitle: 'Wrote in Chinese and translate by google'
+subtitle: 'Initially published in Service Mesher community in Chinese and translate by google'
 summary: How to understand envoy, compare to F5/NGINX.
 authors:
 - admin
