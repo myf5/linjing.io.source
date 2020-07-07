@@ -22,7 +22,7 @@ role: Solution Architect@F5
 # Organizations/Affiliations
 organizations:
 - name: F5 Networks
-  url: "https://www.f5networks.com"
+  url: "https://www.f5.com"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Check my tech blog for more https://cnadn.net
