@@ -19,7 +19,7 @@ copyright = "Copyright &copy; {year} linjing.io host on github, imesh.cloud host
 googleAnalytics = ""
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "linjingio"
 
 ############################
 ## Advanced options below ##
