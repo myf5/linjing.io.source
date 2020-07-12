@@ -18,7 +18,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
-  caption: 'My tech blog https://cnadn.net'
+  caption: 'My tech blog https://imesh.club'
   focal_point: ""
   preview_only: false
 
@@ -271,4 +271,4 @@ Written at the end: No matter how the technology changes, the human factor is st
 
 
 
-Check more istio practice detail at my tech blog https://cnadn.net
+Check more istio practice detail at my tech blog https://imesh.club

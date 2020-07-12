@@ -10,7 +10,7 @@ authors:
 btn:
 - url : "https://www.linkedin.com/in/jing-lin-218b3915/"
   label : "Connect on Linkedin"
-- url : "https://cnadn.net/contactme"
+- url : "https://imesh.club/contactme"
   label : "Send me message"
 
 # Is this the primary user of the site?
@@ -25,7 +25,7 @@ organizations:
   url: "https://www.f5.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Check my tech blog for more https://cnadn.net
+bio: Check my tech blog for more https://imesh.club
 
 # Should the user's education and interests be displayed?
 display_education: false
@@ -77,7 +77,7 @@ user_groups:
 
 It has been 10+ years I focus on the industry of application delivery. Initially, I was site engineer to support big banking customers, got lots of practice during there. The experience of 4 years F5 support (TAC) let me know how to control complicated issues, pepole or technical case. I am familar with K8s, Docker, service mesh, NGINX, Ansible, DNS, HTTP, SSL, TCP, UDP, WAF,Loadbalance, Identity Access Management, CDN, Web Accelerator, TCL programming. I like to dig the root of cause when I immerse in troubleshooting. After the TAC role, I moved to F5 APAC consulting team, I am the first one consultant in GCG, during the 4 years, I delivered complicate post-sale and pre-sales projects for APAC customers, this role make me better on time/project management and communications. Then, after that, I decided to take challenge again, so I became the first one Specialist System Engineer in GCG, This is a role that need strong hands-on and pre-sale experience, high level domains knowledge and be innovative. During the role I designed the biggest IPV4/6 smart DNS architecture in China, delivered the first production level F5 PaaS solution. Now I am software solution architect, focus on driving F5 software solution to new market.
 
-I have strong self-learning ability, keep passion to new technology. Also I am blog enthusiast, keep writing blogs since 14 years ago (https://www.cnadn.net).
+I have strong self-learning ability, keep passion to new technology. Also I am blog enthusiast, keep writing blogs since 14 years ago (https://imesh.club).
 
 I am familiar with private cloud like openstack/SDN,Vmware. Also good on docker, k8s. I am CNCF Certified Kubernetes Administrator (CKA #664), also own CCNP/MCSE/JNCIS certificates. I am the first one F5 certified security solution expert in China. Beside those, I am also interested to open source technology like service mesh(Istio,envoy), observability(ELK, Prometheous, Grafana) etc. I am Cloud Native advocate.
 

@@ -34,7 +34,7 @@ links:
 #  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: "https://www.cnadn.net"
+url_slides: "https://imesh.club"
 url_video: ""
 
 # Markdown Slides (optional).

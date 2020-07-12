@@ -18,7 +18,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
-  caption: 'My tech blog https://cnadn.net'
+  caption: 'My tech blog https://imesh.club'
   focal_point: ""
   preview_only: false
 
@@ -46,7 +46,7 @@ For printing companies and network disk service providers, they also have simila
 
 So it can be seen that for these three different stakeholders, there is a desire to have something to solve their problems at the same time. This is authorization. When the user wants to print the photo, the printing company guides the customer to enter the network disk interface. The user is Log in to the network disk and authorize the network disk to allow which of my resources to be shared with the photo printing company. For example, share your beautiful photos to print, and the original photos are not allowed to be accessed by the printing company, which is very safe. So we can summarize:
 
-![](https://www.cnadn.net/upload/2020/05/1589076716809-1024x441.jpg?v=1589076733)
+![](https://imesh.club/upload/2020/05/1589076716809-1024x441.jpg?v=1589076733)
 
 oAuth is used to solve such a scenario, so you can see that it is an authorization process. But you haven’t said why it was a certification at the beginning, hmmm. After all, I also spent a lot of time to learn it. It is also a process after finishing it. Just like this article, it is a series. Only the following articles can be finished:
 
@@ -69,7 +69,7 @@ These requirements oAuth can help solve, but there is a problem. If you join the
 
 Before looking at what NGINX can do, let's take a look at the oAuth process without NGINX and the above requirements.
 
-![](https://www.cnadn.net/upload/2020/05/1589087602055-1024x534.jpg?v=1589087614)
+![](https://imesh.club/upload/2020/05/1589087602055-1024x534.jpg?v=1589087614)
 
 From the above process, it can be seen that for users, they log in and authorize once on github, and the browser makes two jumps. The really useful access_token is between the back-end application server and github. The user and the browser itself cannot see the content of this access_token, which is called the backend channel and is relatively safe. So what does the application do after getting this access_token?
 
@@ -77,7 +77,7 @@ From the above process, it can be seen that for users, they log in and authorize
 
 -If it is not limited to obtaining user information, but to obtain additional resources, such as the need to obtain the person's repo content, then the application server needs to access this access_token to access a github repo resource server (resource server and The authorization servers are not necessarily the same, and large-scale scenes are usually not the same) to obtain the person's repo content, then the above picture becomes like this:
 
-![](https://www.cnadn.net/upload/2020/05/1589088979883-1024x570.jpg?v=1589089012)
+![](https://imesh.club/upload/2020/05/1589088979883-1024x570.jpg?v=1589089012)
 
 So, you will find that the web application backend is very critical. It participates in the entire oAuth process and finally obtains the access_token. Imagine, as you said at the beginning of the company, many open source are developed in different languages. System, you have to transform to add this ability. At this time, you actually only want to decide based on the user's information that the system must be logged in through the oAuth process before it can be accessed, or the system determines who can access based on the user name.
 
@@ -85,7 +85,7 @@ This work can actually be achieved by placing NGINX in front of the web applicat
 
 Carefully observe the entire verification process above, which requires NGINX to participate in the construction of the jump return, and use the authorization code to construct the request to directly access the github authorization server. If these tasks are done purely on NGINX, it is actually very difficult. Development through njs is a way but requires the ability to authenticate JWT (so NGINX Plus does not need to install an oauth proxy service like the demo in this article, It can be realized by directly using the njs module + KV module + JWT module. For details, please refer to the second part of this series), but in fact, it can be achieved with the help of the ability of auth_request and an oAuth proxy, which means that we need to be in various The implementation code of the oAuth authentication process created on the open source system is abstracted to it, and a general one is involved. The oAuth proxy agent participates in this oAuth process, and finally the obtained access_token is parsed out. The relevant claims information is returned to NGINX, NGINX Based on this information, we will control whether to allow access to a resource, or transparently pass relevant user information to the final application. So its implementation logic is as follows:
 
-![](https://www.cnadn.net/upload/2020/05/1589090989794-1024x566.jpg?v=1589091004)
+![](https://imesh.club/upload/2020/05/1589090989794-1024x566.jpg?v=1589091004)
 
 The idea and principle of implementation (the following serial number has nothing to do with the figure):
 
@@ -111,17 +111,17 @@ There are many implementations of such an oauth proxy online, here is a brief li
 ## Demo
 This demonstration uses NGINX plus and vouch-proxy to achieve. For the specific installation and configuration of vouch-proxy, please refer to its github directly, it is not complicated
 
-![](https://www.cnadn.net/upload/2020/05/1589093713142-1024x705.jpg?v=1589093738)
+![](https://imesh.club/upload/2020/05/1589093713142-1024x705.jpg?v=1589093738)
 
 In the actual demo, the web application backend actually has an intermediate NGINX to simulate, using return to return the content.
 
 NGINX configuration:
 
 ```
-############entry for protected app http://authcode.cnadn.net/personalinfo
+############entry for protected app http://authcode.imesh.club/personalinfo
 server {
     listen 80;
-    server_name authcode.cnadn.net;
+    server_name authcode.imesh.club;
     #root /var/www/html/;
 
     # send all requests to the `/validate` endpoint for authorization
@@ -153,7 +153,7 @@ server {
 
     location @error401 {
         # redirect to Vouch Proxy for login
-        return 302 http://vouch.cnadn.net/login?url=$scheme://$http_host$request_uri&amp;vouch-failcount=$auth_resp_failcount&amp;X-Vouch-Token=$auth_resp_jwt&amp;error=$auth_resp_err;
+        return 302 http://vouch.imesh.club/login?url=$scheme://$http_host$request_uri&amp;vouch-failcount=$auth_resp_failcount&amp;X-Vouch-Token=$auth_resp_jwt&amp;error=$auth_resp_err;
         # you usually *want* to redirect to Vouch running behind the same Nginx config proteced by https
         # but to get started you can just forward the end user to the port that vouch is running on
     }
@@ -201,40 +201,40 @@ Responsible for receiving the request configuration initiated by the client brow
 #######work for vouch login/auth
 server {
     listen 80;
-    server_name vouch.cnadn.net;
+    server_name vouch.imesh.club;
     location / {
        proxy_pass http://127.0.0.1:9090;
        # be sure to pass the original host header
-       proxy_set_header Host vouch.cnadn.net;
+       proxy_set_header Host vouch.imesh.club;
     }
 }
 ```
 
 
 The effect of the visit process:
-![](https://www.cnadn.net/upload/2020/05/%E5%9B%BE%E7%89%87-1-1-653x1024.png?v=1589095217)
+![](https://imesh.club/upload/2020/05/%E5%9B%BE%E7%89%87-1-1-653x1024.png?v=1589095217)
 
-![](https://www.cnadn.net/upload/2020/05/%E5%9B%BE%E7%89%87-2-682x1024.png?v=1589095226)
+![](https://imesh.club/upload/2020/05/%E5%9B%BE%E7%89%87-2-682x1024.png?v=1589095226)
 
-![](https://www.cnadn.net/upload/2020/05/1589096005904.jpg?v=1589096014)
+![](https://imesh.club/upload/2020/05/1589096005904.jpg?v=1589096014)
 
-The first visit to http://authcode.cnadn.net/personalinfo, the browser is automatically jumped to the vouch.cnadn.net/login? interface, this jump is actually driven by NGINX
+The first visit to http://authcode.imesh.club/personalinfo, the browser is automatically jumped to the vouch.imesh.club/login? interface, this jump is actually driven by NGINX
 
-After receiving it, vouch.cnadn.net processes it and asks the browser to jump to the github.com/authorize interface. Since it has not logged in on github, github jumps to the /login interface to let the user log in.
+After receiving it, vouch.imesh.club processes it and asks the browser to jump to the github.com/authorize interface. Since it has not logged in on github, github jumps to the /login interface to let the user log in.
 
-The login interface appears. After logging in, the authorization will be displayed. Clicking on the authorization will be redirected to vouch.cnadn.net (the service address of oauth proxy), which actually returns the authorization code to the oauth poxy service.
+The login interface appears. After logging in, the authorization will be displayed. Clicking on the authorization will be redirected to vouch.imesh.club (the service address of oauth proxy), which actually returns the authorization code to the oauth poxy service.
 
-After clicking the authorization, the browser will continue to jump. The github implementation will have the following jump prompt, which is actually the browser to jump to the callback interface of vouch.cnadn.net:
+After clicking the authorization, the browser will continue to jump. The github implementation will have the following jump prompt, which is actually the browser to jump to the callback interface of vouch.imesh.club:
 
-![](https://www.cnadn.net/upload/2020/05/%E5%9B%BE%E7%89%87-3.png?v=1589095466)
+![](https://imesh.club/upload/2020/05/%E5%9B%BE%E7%89%87-3.png?v=1589095466)
 
-After the callback interface of vouch.cnadn.net is accessed, it will drive vouch to initiate access_token acquisition on the server side. At this time, the browser cannot capture it. When vouch has been obtained on the server, it returns a 302 to the browser again. This 302 requires the browser to officially access the application address, and is accompanied by the relevant cookie to the client browser:
+After the callback interface of vouch.imesh.club is accessed, it will drive vouch to initiate access_token acquisition on the server side. At this time, the browser cannot capture it. When vouch has been obtained on the server, it returns a 302 to the browser again. This 302 requires the browser to officially access the application address, and is accompanied by the relevant cookie to the client browser:
 
-![](https://www.cnadn.net/upload/2020/05/1589096907088.jpg?v=1589096914)
+![](https://imesh.club/upload/2020/05/1589096907088.jpg?v=1589096914)
 
 Finally completed the visit:
 
-![](https://www.cnadn.net/upload/2020/05/1589097012011.jpg?v=1589097024)
+![](https://imesh.club/upload/2020/05/1589097012011.jpg?v=1589097024)
 
 ## Summary
 Use NGINX's auth_request function, and through clever configuration to use oauth proxy to achieve the complete authentication process of oAuth, and pass relevant user information to NGINX to achieve access control and information processing. Except for the back-end, all applications need to develop code to implement oauth verification, so that enterprises can quickly use third-party accounts to control user access
@@ -242,4 +242,4 @@ Use NGINX's auth_request function, and through clever configuration to use oauth
 ## Follow up
 In this practice, the authorization code mode of oAuth is adopted, and the external oauth proxy service is used. If you do not want to rely on external services and want to implement on pure NGINX, you can refer to the second part of this series .
 
-Check more oAuth posts of the series at my tech blog https://www.cnadn.net/?s=oauth
+Check more oAuth posts of the series at my tech blog https://imesh.club/?s=oauth

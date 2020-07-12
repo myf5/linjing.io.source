@@ -50,7 +50,7 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "https://cnadn.net/contact"
+email = "https://imesh.club/contact"
 phone = ""
 address = "BeiJing, China"
 
@@ -71,7 +71,7 @@ contact_links = [
   #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/myf5"},
   {icon = "linkedin", icon_pack = "fab", name = "Linkedin", link = "https://www.linkedin.com/in/jing-lin-218b3915/"},
-  {icon = "wordpress", icon_pack = "fab", name = "My blog", link = "https://www.cnadn.net"},
+  {icon = "wordpress", icon_pack = "fab", name = "My blog", link = "https://imesh.club"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
