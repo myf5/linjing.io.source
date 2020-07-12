@@ -42,6 +42,6 @@ hero_media = ""
   label = "Contact me"
 
 +++
-## My name is **Jing Lin 林静** and I am a Solution Architect at F5.
+## Hey, Welcome, I am **Jing Lin 林静** and a Solution Architect at F5.
 
-I have over 10 years experience to Application Service and Delivery. Familiar with Loadbalance realm. I am advocate of Cloud native. Cloud, Service Mesh, Kubernetes, PaaS, Envoy, NGINX are my attention.
+Over 10 years experience to Application Service and Delivery. Familiar with Loadbalance realm. An advocate of Cloud native. Cloud, Service Mesh, Kubernetes, PaaS, Envoy, NGINX are my attention.
