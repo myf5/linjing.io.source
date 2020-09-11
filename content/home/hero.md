@@ -44,4 +44,4 @@ hero_media = ""
 +++
 ## Hey, Welcome, I am **Jing Lin 林静**, Solution Architect at F5.
 
-Over 10 years experience to Application Service and Delivery. Familiar with Loadbalance realm. An advocate of Cloud native. Cloud, Service Mesh, Kubernetes, PaaS, Envoy, NGINX are my attention.
+Over 10 years experience to Application Service and Delivery. Familiar to Loadbalance realm. An advocate of Cloud native. Cloud, Service Mesh, Kubernetes, PaaS, Envoy, NGINX are my attention.
