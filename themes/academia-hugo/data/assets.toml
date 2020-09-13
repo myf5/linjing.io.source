@@ -67,10 +67,10 @@
 # CSS
 
 [css.fontAwesome]
-  version = "5.10.0-14"
+  version = "5.10.0"
   sri = "sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
-  #url = "https://use.fontawesome.com/releases/v%s/css/all.css"
-  url = "https://cdn.bootcdn.net/ajax/libs/font-awesome/%s/css/all.css"
+  url = "https://use.fontawesome.com/releases/v%s/css/all.css"
+  #url = "https://cdn.bootcdn.net/ajax/libs/font-awesome/%s/css/all.css"
 [css.academicons]
   version = "1.8.6"
   sri = "sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw="
