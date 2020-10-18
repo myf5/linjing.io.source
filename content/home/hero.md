@@ -18,11 +18,11 @@ hero_media = ""
 
   # Background color.
   color = "#fff"
-  
+
   # Background gradient.
   # gradient_start = "#4bb4e3"
   # gradient_end = "#000"
-  
+
   # Background image.
   # image = ""  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
@@ -36,7 +36,7 @@ hero_media = ""
 [btn]
   url = "/authors/admin"
   label = "Know more"
-  
+
 [btn_alt]
   url = "#contact"
   label = "Contact me"
@@ -44,4 +44,4 @@ hero_media = ""
 +++
 ## Hey, Welcome, I am **Jing Lin 林静**, Solution Architect at F5.
 
-Over 10 years experience to Application Service and Delivery. Familiar to Loadbalance realm. An advocate of Cloud native. Cloud, Service Mesh, Kubernetes, PaaS, Envoy, NGINX are my attention.
+Over 10 years experience to Application Service and Delivery. Familiar to Loadbalance realm. An advocate of Cloud native. Cloud, Service Mesh, Kubernetes, PaaS, Envoy, NGINX are my attention. Check my technology blogs https://myf5.net
