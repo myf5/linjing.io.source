@@ -5,11 +5,7 @@ event_url: http://www.f5chinanetworks.com/partner/wechat/datacenter/invite/activ
 location: Online
 summary: ingress,egress solution for PaaS
 abstract: "
-With the deepening of enterprise PaaS, more and more enterprises need to integrate PaaS with existing infrastructure.
-
-The speech "The Integration of PaaS and Infrastructure" introduced the innovation of the F5 and Kube-OVN joint solution in the deployment structure of cloud native application services. This K8s overall traffic management solution can provide unified traffic ingress and egress, traffic monitoring, application security, and two-site three-center traffic scheduling capabilities. It also provides a unified traffic in and out function that can protect user network investment and allow users to use existing The network management facility performs security policy management on the K8s cluster.
-
-If you are interested in this speech, click " Watch Review " at the bottom right corner of the page to view the video of the event."
+With the deepening of enterprise PaaS, more and more enterprises need to integrate PaaS with existing infrastructure."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
