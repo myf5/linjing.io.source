@@ -15,9 +15,9 @@ subtitle = "Share and Happy, I am always a blogger since 2006. Check https://ime
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 3
+  count = 6
   
-  # Choose how many pages you would like to offset by
+  # Choose how many pages you wßould like to offset by
   offset = 0
 
   # Page order. Descending (desc) or ascending (asc) date.
