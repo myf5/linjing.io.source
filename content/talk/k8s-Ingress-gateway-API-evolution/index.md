@@ -37,7 +37,7 @@ all_day: false
 publishDate: "2021-07-12T00:00:00Z"
 
 authors: [Jing Lin]
-tags: [Ingress,Egress]
+tags: [Ingress,Egress,feature]
 
 # Is this a featured talk? (true/false)
 featured: true
