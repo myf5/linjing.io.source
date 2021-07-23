@@ -18,6 +18,17 @@ date_format = "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+
+[[item]]
+  organization = "The Open Group"
+  organization_url = "https://togaf9-cert.opengroup.org/home-public"
+  title = "TOGAF V9.2 Certified"
+  url = ""
+  certificate_url = ""
+  date_start = "2021-05-8"
+  date_end = ""
+  description = "The open group Togaf v9.2 certification"
+
 [[item]]
   organization = "CNCF"
   organization_url = "https://www.cncf.io"
