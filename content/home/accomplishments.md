@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   title = "TOGAF V9.2 Certified"
   url = ""
   certificate_url = ""
-  date_start = "2021-05-8"
+  date_start = "2021-05-08"
   date_end = ""
   description = "The open group Togaf v9.2 certification"
 
