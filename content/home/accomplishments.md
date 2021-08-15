@@ -40,6 +40,16 @@ date_format = "Jan 2006"
   description = "CNCF Certified Kuberntes Administrator. ID: CKA-1800-0664-0100"
 
 [[item]]
+  organization = "NGINX"
+  organization_url = "https://www.nginx.com"
+  title = "NGINX Accredited Chief of Coach"
+  url = ""
+  certificate_url = ""
+  date_start = "2021-05-01"
+  date_end = ""
+  description = "Building NGINX certification exam"
+
+[[item]]
   organization = "F5"
   organization_url = "https://www.f5.com/services/certification"
   title = "F5 CSE Security"
