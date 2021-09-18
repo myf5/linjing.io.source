@@ -15,7 +15,7 @@ subtitle = "Online or Offline"
   page_type = "talk"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 6
+  count = 9
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -38,7 +38,7 @@ subtitle = "Online or Offline"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.
