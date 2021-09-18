@@ -10,8 +10,8 @@ The transformation of cloud native is not accomplished overnight,the infrastruct
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-09-17T14:10:30Z"
-date_end: "2021-09-17T15:30:00Z"
+date: "2021-09-17T00:10:30Z"
+date_end: "2021-09-17T00:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -25,7 +25,7 @@ featured: true
 
 image:
   caption: ''
-  focal_point: Right
+  focal_point: Left
 
 links:
 #- icon: twitter
