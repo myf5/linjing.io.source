@@ -1,7 +1,7 @@
 ---
 title: 'Container Egress Service(CES)'
 subtitle: 'What is CES and why CES'
-summary: CES is a solution. It is used to help users better manage the outgoing traffic of k8s pod/container. It solves the challenge of outgoing traffic policy control in high dynamic IP scenarios in k8s native way, and provides a wealth of outgoing control capability. And through the hierarchical design, it solves the multi-role coordination problem among enterprise security, network, platform, and application operation departments.
+summary: CES is a solution. It is used to help users better manage the outgoing traffic of k8s pod/container. It solves the egress challenge in high dynamic IP scenarios, and provides a wealth of outgoing control capability. 
 authors:
 - Jing Lin(林静)
 tags:
