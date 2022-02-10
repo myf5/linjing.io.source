@@ -18,7 +18,7 @@ all_day: false
 publishDate: "2021-09-16T00:00:00Z"
 
 authors: [Jing Lin]
-tags: [SOAP,cloud natvie,enterprise]
+tags: [SOAP,cloud natvie,enterprise,feature]
 
 # Is this a featured talk? (true/false)
 featured: true
