@@ -1,0 +1,110 @@
+---
+title: 'To implement cloud native, you need such an infrastructure'
+subtitle: 'Initially published in myf5.net in Chinese and translate by google'
+summary: Various system applications at the top layer are ultimately inseparable from the support of the underlying infrastructure.
+authors:
+- Gao Yuxian[zhiding.cn]
+tags:
+- F5
+- platform
+- Cloud native
+- Infrastructure
+- DigitalX
+categories: []
+date: "2021-09-30T00:00:00Z"
+lastmod: "2021-09-30T00:00:00Z"
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+image:
+  caption: 'My tech blog https://myf5.net'
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+
+# Set captions for image gallery, use {{< gallery >}} to refrence in body.
+gallery_item:
+- album: gallery
+  caption: Default
+  image: theme-default.png
+- album: gallery
+  caption: Ocean
+  image: theme-ocean.png
+- album: gallery
+  caption: Forest
+  image: theme-forest.png
+- album: gallery
+  caption: Dark
+  image: theme-dark.png
+- album: gallery
+  caption: Apogee
+  image: theme-apogee.png
+- album: gallery
+  caption: 1950s
+  image: theme-1950s.png
+- album: gallery
+  caption: Coffee theme with Playfair font
+  image: theme-coffee-playfair.png
+- album: gallery
+  caption: Strawberry
+  image: theme-strawberry.png
+---
+
+# To implement cloud native, you need such an infrastructure
+
+When a ten thousand zhang tall building starts from the ground, only when the foundation piles are deeply driven and the cornerstones are firmly laid, can the building be built higher and more stable. Digital transformation is not the case - all kinds of system applications at the top layer are ultimately inseparable from the support of the underlying infrastructure. It's just that this base must change according to needs and times, instead of building a "pillar" and building a "building".
+
+Take cloud native applications that are very popular right now, if they are also built on the centralized and complex traditional infrastructure, it is equivalent to "new wine in old bottles", and accidentally "sprinkled wine in a bottle". Get busy.
+
+In this regard, Lin Jing, senior solution architect of F5 Networks, said in an interview with a reporter from Zhiding.com that the unique characteristics of cloud-native applications such as flexibility, agility, and simplification have put forward many new requirements for enterprise IT architecture. In three aspects: First, the orchestration of IT service capabilities. Since IT services are abstracted into various atomic services, this puts forward higher requirements for enterprises in event-based automation and operation and maintenance data capability mining; second, the IT architecture is flattened. More and more assembleable architectures are integrated into the underlying network system, which will weaken the previous network-centric thinking, and the capabilities of the platform will become more and more important; third, IT talents are mixed. Talent lines are no longer bounded by obvious networks, systems, etc., and technology-mixed talents will be increasingly strengthened in the scenario of IT architecture platformization.
+
+![To implement cloud native, you need such an infrastructure](./liiTecDmaLd2_600.jpeg)
+
+​														**Lin Jing,  Solutions Architect,** **F5 Networks**
+
+"This means that enterprises need to use new technologies and use cloud-native standards, microservices, containers, etc. to build a modern application architecture to meet the current urgent needs." Lin Jing emphasized. In this process, F5 has been deeply involved in the application network for many years. To help enterprises build an infrastructure that can meet the needs of digital transformation and support the implementation of their cloud-native applications, it should be said that they are very familiar with it.
+
+**Three footholds, one big platform**
+
+From the perspective of F5, it is decomposed from the perspective of F5. Specifically, it pays more attention to three aspects in the context of cloud native: firstly, how to transform the traditional infrastructure into a programmable mode to make the architecture more flexible and scalable; secondly It is how to build a modern service architecture based on new technologies such as microservices and containers; the third is to integrate the two.
+
+For the first point, we see that the focus of F5 in traditional infrastructure in the past was mainly from the boundary of the data center entrance, to the authentication of data center services, the load balancing of background applications, and then to the release and policy control of application services. , all products and services revolve around applications. Now, as long as F5 endows the platform carrying these services with programmable capabilities and releases such capabilities to the upper layer, it can well meet the needs of enterprises in terms of flexible application invocation.
+
+"First of all, at the infrastructure layer, we have tenanted the underlying service resources and hardware resources of F5, and provided automated orchestration tools such as Ansible and Terrafrom to help enterprises achieve rapid resource allocation through interfaces; at the abstraction layer, using DO Business deployment with AS3, using F5OS-API to help users adapt to the division of underlying resources, etc." Lin Jing explained.
+
+For the second point, enterprises often start by building an assembleable architecture, that is, building their own private cloud, or directly using public cloud services. In order to integrate into this new modern cloud-native architecture, F5 has introduced many new capabilities for itself - for example, through the acquisition of NGINX, it has improved its capabilities including service mesh and PaaS entry, and truly penetrated into cloud-native; Through the acquisition of Volterra, a unified cloud-native platform interaction capability from public cloud, private cloud to edge is built; through the acquisition of Threat Stack, the full-stack security capabilities under the cloud-native system are further complemented.
+
+"For example, in terms of operation, we can provide a multi-language operation server through the NGINX standard APP Server and Unit, and provide a standard Kubernetes Ingress controller under the Kubernetes system; secondly, in Kubernetes, we will also provide NGINX. Proxy at the containerization layer such as Service Proxy, and API management provided by NGINX, help enterprises manage the full life cycle of APIs.” According to Lin Jing, in addition to the PaaS layer, F5 also provides many SaaS services, involving security, analysis and insight , Smart DNS and other applications.
+
+For the integration of traditional architecture and modern application architecture, F5 believes that the key lies in the collaboration between the two different architectures. In this regard, F5 also creatively proposed the concepts of "internal cloud native application service" and "external cloud native application service". The former refers to service capabilities around technical scenarios such as containers and Kubernetes; the latter refers to providing more external capabilities under the above conventional services, such as connecting and managing internal application services with external APIs.
+
+"At the boundary of the data center, from security to compliance operations, we used to look at the data center from the perspective of virtual machines and the grid as the core. But under the new PaaS system, all IPs are very dynamic. , to achieve real-time monitoring, security policies and norms will be challenged, therefore, integration between traditional infrastructure and PaaS must be carried out.” Lin Jing emphasized.
+
+**Complete technical and role challenges**
+
+Today, F5 has put this core idea into practice in the process of serving corporate customers. Take a bank as an example: Previously, the bank drove the construction of its own PaaS system through the cloud management center. However, in the process of business release, they found that all release processes would eventually return to the traditional management and control model of the network department. "At this time, the cooperation of the two departments is required, and the fast and agile characteristics of the cloud itself will be greatly weakened." Lin Jing said.
+
+In this regard, F5 proposed an innovative Hub model, which is the "one center" model. Specifically, a simulated space area is listed on top of Kubernetes, which is managed uniformly by the network team, and all services released by the business department can eventually pass through this central area and be quickly written to the foundation with the help of the F5 controller. facility. In this way, the technical use threshold of the business department is lowered, and the original release mode of the network team is retained, enabling better collaboration between the two departments. The solution used in it, F5 is called "the solution of the entrance Ingress", namely Container Ingress Services.
+
+Correspondingly, F5 also proposed the Egress solution, which mainly aims at the technical and role challenges of enterprises in the process of implementing cloud-native applications. The technical challenge is mainly reflected in the outbound traffic of the container. Since the IP address of the container is constantly changing during the outbound traffic, the traditional firewall cannot perform fine adjustment, which means that the location of all control policies must be able to dynamically sense the container; role challenges It is mainly reflected in the differences in demands between different departments. For example, the business department and the network department will have different security demands, and who should determine the policy standards in the end, which is a very real problem.
+
+To this end, F5 provides two targeted solutions - solving technical problems through automation controllers, and reducing the difficulty of safe landing through differentiated classification of security policies. "In other words, we can divide security policy rules into three categories: first, enterprise-level basic key policies, such as DNS, NTP, auditing system, etc.; second, specific policies for each project; third, under microservices, local unit services. Refinement control strategy, for example, some microservices have unique requirements, and after starting one of the microservices, it is connected to a third party, so you can configure refined items for independent microservice units. Lin Jing explained to reporters , "Because the attention of each layer of policy is different and the security roles are separated, through the layered design, it is possible to make better cooperation between traditional security personnel and modern organizational structure implementers to avoid inefficiencies. Communicate to help enterprises achieve cloud native more efficiently. "
+
+**From technology to talents, give full play to the existing strengths of F5**
+
+All in all, F5 covers almost all of these capabilities, from traditional infrastructure services to upper-layer application delivery, from all-center application solutions to corresponding digital experiences. For itself, it not only penetrates into the cloud native system, but also builds a bridge between traditional architecture and cloud native architecture for enterprises. In Lin Jing's words, F5 has regarded cloud native as a very important part of its strategic planning.
+
+In this process, F5's goal is to start from four aspects: infrastructure network, application network, security and application operation, "to help enterprises build applications for better digital experience". For example, delivering multi-cloud application capabilities such as consistent deployment, multi-cloud workload management, edge application management, modern application security, and application insight for enterprises; providing platform-level O&M capabilities, better service agents, service governance, and DevOps foundations At the same time, it also needs to ensure full-stack security including network, host, application and other layers.
+
+However, this does not mean a complete overthrow of F5's past products, but to give new capabilities to old technologies. "For example, with the help of the F5 CRS controller technology, the traditional F5 solution technology can be introduced into the PaaS platform or modern system to help the business release better and faster." Lin Jing said. "For another example, AI's insights into data can also help enterprises improve the adaptive capabilities of applications, enhance the digital experience of applications, help users better manage applications on hybrid clouds and edges, and optimize and protect application security."
+
+"Of course, we don't just focus on cloud-native technologies, but also in terms of technology, culture, or talent, etc., and, based on F5's deep understanding of traditional infrastructure, to help users truly understand the data center perspective. , do a good job of cloud native in every field." Lin Jing concluded, "In other words, F5 is using its deep understanding of enterprises and industries to provide more and more modern and new solutions, which It is a very big advantage of F5 in the cloud-native field." In its essence, you will find that whether it is communication control or service management, these are the original strengths of F5, but they are just switched to a new scenario. "So, for F5, we have never left, but have been cultivating."
