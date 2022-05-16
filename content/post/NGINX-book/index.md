@@ -60,12 +60,10 @@ gallery_item:
 
 Pls order it in jd.com, Chinese book name： NGINX经典教程
 
-<img src="img/image-20220516124726413.png" alt="image-20220516124726413" style="zoom:44%;" />
+![image-20220516125953377](img/image-20220516125953377.png)
 
+![image-20220516130010458](img/image-20220516130010458.png)
 
-
-<img src="img/image-20220516124809491.png" alt="image-20220516124809491" style="zoom:44%;" />
-
-<img src="img/image-20220516124828878.png" alt="image-20220516124828878" style="zoom:40%;" />
+![image-20220516130043488](img/image-20220516130043488.png)
 
 ![image-20220516124855457](img/image-20220516124855457.png)
