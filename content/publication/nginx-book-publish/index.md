@@ -18,7 +18,7 @@ publication_types: ["5"]
 publication: "Posts and Telecom Press"
 publication_short: "https://item.jd.com/10051876798635.html"
 
-abstract: This is a book with full of experience and practice for NGINX. Include NGINX basic, and many use cases that many customers are using.
+abstract: This is a book with full of experience and practice for NGINX. Include NGINX basic, and many use cases that many customers are using. Buy from here  https://item.jd.com/10051876798635.html
 
 # Summary. An optional shortened abstract.
 summary: This a book with full of experience and practice for NGINX. Include NGINX basic, and many use cases that many customers are using.
@@ -35,7 +35,7 @@ links:
 # url_pdf: http://arxiv.org/pdf/1512.04133v1
 # url_code: '#'
 # url_dataset: '#'
-url_poster: 'http://soft.zhiding.cn/software_zone/2021/0929/3136583.shtml'
+url_poster: 'https://item.jd.com/10051876798635.html'
 # url_project: ''
 # url_slides: ''
 # url_source: '#'
