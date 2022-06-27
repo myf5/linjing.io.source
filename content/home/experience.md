@@ -18,12 +18,30 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Senior Solution Architect"
+  company = "F5"
+  company_url = "https://f5.com"
+  location = "BeiJing"
+  date_start = "2022-06-01"
+  date_end = ""
+  description = """
+* Promote to Senior SA
+* Analyze Modern App and Cloud Native industry, make business strategy along with Modern App growth engine team.
+* Talking to high level person of customers, evangelize Cloud Native and Modern App.
+* Create solutions for presale team and drive software business.
+* Working with marketing team to lift F5 voice in cloud native and modern app era by presentation on events.
+* Bridge between field and PD team to improve product or influence product manager.
+* Help solution engineers to resolve technical challenge during projects process.
+* Leading solution engineers to catch up new technology.
+  """
+
+[[experience]]
   title = "Solution Architect"
   company = "F5"
   company_url = "https://f5.com"
   location = "BeiJing"
   date_start = "2019-10-01"
-  date_end = ""
+  date_end = "2022-06-01"
   description = """
 * Analyze Modern App and Cloud Native industry, make business strategy along with Modern App growth engine team.
 * Talking to high level person of customers, evangelize Cloud Native and Modern App.

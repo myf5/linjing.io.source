@@ -17,11 +17,11 @@ btn:
 superuser: true
 
 # Role/position
-role: Solution Architect@F5
+role: Senior Solution Architect@F5
 
 # Organizations/Affiliations
 organizations:
-- name: F5 Networks
+- name: F5 Inc.
   url: "https://www.f5.com"
 
 # Short bio (displayed in user profile at end of posts)
