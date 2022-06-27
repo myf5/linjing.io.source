@@ -26,14 +26,6 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 * Promote to Senior SA
-* Analyze Modern App and Cloud Native industry, make business strategy along with Modern App growth engine team.
-* Talking to high level person of customers, evangelize Cloud Native and Modern App.
-* Create solutions for presale team and drive software business.
-* Working with marketing team to lift F5 voice in cloud native and modern app era by presentation on events.
-* Bridge between field and PD team to improve product or influence product manager.
-* Help solution engineers to resolve technical challenge during projects process.
-* Leading solution engineers to catch up new technology.
-  """
 
 [[experience]]
   title = "Solution Architect"
