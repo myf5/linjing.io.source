@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 * Promote to Senior SA
-
+"""
 [[experience]]
   title = "Solution Architect"
   company = "F5"
