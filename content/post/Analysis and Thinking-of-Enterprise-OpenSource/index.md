@@ -1,6 +1,6 @@
 ---
 title: 'Analysis and Thinking of Enterprise Open Source'
-subtitle: ''
+subtitle: 'Translated by Google.'
 summary: As open source users or as open source subjects, how should we understand open source, how to understand the community, and how to participate in open source better and more safely. This article will discuss with you the meaning of open source, business models, risks and challenges, choices and governance.
 authors:
 - Jing Lin(林静)
@@ -18,7 +18,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
-  caption: 'My tech blog https://myf5.net'
+  caption: 'The picture from internet.'
   focal_point: ""
   preview_only: false
 
