@@ -19,30 +19,30 @@ subtitle = "Good self learning ability, balance on infrastructure and applicatio
   icon_pack = "fas"
   name = "Reverse Proxy"
   parcent = "95%"
-  
+
 [[feature]]
   icon = "dharmachakra"
   icon_pack = "fas"
   name = "Kubernetes"
-  parcent = "80%"  
-  
+  parcent = "90%"  
+
 [[feature]]
   icon = "code-branch"
   icon_pack = "fas"
   name = "Devops/Automation"
-  parcent = "75%"
-  
+  parcent = "80%"
+
 [[feature]]
   icon = "server"
   icon_pack = "fas"
   name = "Datacenter"
-  parcent = "85%"
-  
+  parcent = "90%"
+
 [[feature]]
   icon = "buromobelexperte"
   icon_pack = "fab"
   name = "Service Mesh"
-  parcent = "75%"
+  parcent = "80%"
 
 [[feature]]
   icon = "sliders-h"
