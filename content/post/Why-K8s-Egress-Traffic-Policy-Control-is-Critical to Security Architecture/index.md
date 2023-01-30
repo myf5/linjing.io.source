@@ -1,7 +1,7 @@
 ---
 title: 'Why K8s Egress Traffic Policy Control is Critical to Security Architecture'
 subtitle: 'An article discuss why and what way to control egress traffic in k8s'
-summary: Managing outbound traffic policies in Kubernetes, a seemingly simple requirement, actually is not an easy task to do well. This article will analyze the challenges of Kubernetes outbound policies with you, analyze the advantages and disadvantages of current common solutions, and think about how enterprises should manage and control Kubernetes egress traffic policies.
+summary: Managing outbound traffic policies in Kubernetes, a seemingly simple requirement, actually is not an easy task to do well.
 authors:
 - Jing Lin(林静)
 tags:
