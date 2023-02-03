@@ -3,7 +3,7 @@ title: NGINX Gateway API
 event: NGINX Sprint
 event_url: https://mp.weixin.qq.com/s/9v4pV_9rImcZLl3xKHvjVQ
 location:  Webniar
-summary: "What,Why,How,Demos.Understand Gateway API from this session!"
+summary: What Why How Demos. Understand Gateway API from this session.
 abstract: "
 This article is a sharing record of the NGINX Sprint China 2022 Annual Online Conference. Click "Read the original text" at the end of the article to watch the full video playback of the conference for free.
 
