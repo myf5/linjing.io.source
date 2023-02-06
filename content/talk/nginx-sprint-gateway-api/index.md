@@ -14,14 +14,14 @@ This article mainly explains the topic of NGINX Gateway API, and will discuss th
 #   End time can optionally be hidden by prefixing the line with `#`.
 
 date: "2022-12-01T15:10:30Z"
-date_end: "2022-12-01T15:30:00Z"
+date_end: "2022-12-01T15:55:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2022-10-03T00:00:00Z"
+publishDate: "2023-02-03T00:00:00Z"
 
 authors: [Jing Lin]
-tags: [NGINX,Gateway API,F5,BIG-IP Gateway API]
+tags: [NGINX,Gateway API,F5,BIG-IP Gateway API,feature]
 
 # Is this a featured talk? (true/false)
 featured: true
