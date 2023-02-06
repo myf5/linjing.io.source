@@ -18,7 +18,7 @@ date_end: "2022-12-01T15:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2023-02-03T00:00:00Z"
+publishDate: "2022-10-03T00:00:00Z"
 
 authors: [Jing Lin]
 tags: [NGINX,Gateway API,F5,BIG-IP Gateway API]
