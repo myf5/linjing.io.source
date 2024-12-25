@@ -26,9 +26,9 @@ jobs:
         run: echo linjing.io > ./public/CNAME
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          deploy_key: ${{ secrets.GITHUB_TOKEN }} # 使用github GITHUB_TOKEN
+          github_token: ${{ secrets.GITHUB_TOKEN }} # 使用github GITHUB_TOKEN
           external_repository: myf5/myf5.github.io # Pages 远程仓库 
           publish_dir: "public"
           keep_files: false # remove existing files
