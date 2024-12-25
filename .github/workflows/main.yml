@@ -28,7 +28,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # 使用github GITHUB_TOKEN
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: myf5/myf5.github.io # Pages 远程仓库 
           publish_dir: "public"
           keep_files: false # remove existing files
