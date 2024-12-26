@@ -75,7 +75,7 @@ user_groups:
 
 ---
 
-It has been 13+ years I focus on the industry of application delivery. Initially, I was site engineer to support big banking customers, got lots of practice during there. The experience of 4 years F5 support (TAC) let me know how to handle complicated issues, people, or technical case. I am familiar with K8s, Docker, service mesh, NGINX, Ansible, DNS, HTTP, SSL, TCP, UDP, WAF, Load balance, Identity Access Management, CDN, Web Accelerator, TCL programming. I like to dig the root of cause when I immerse in troubleshooting. 
+It has been 17+ years I focus on the industry of application delivery. Initially, I was site engineer to support big banking customers, got lots of practice during there. The experience of 4 years F5 support (TAC) let me know how to handle complicated issues, people, or technical case. I am familiar with K8s, Docker, service mesh, NGINX, Ansible, DNS, HTTP, SSL, TCP, UDP, WAF, Load balance, Identity Access Management, CDN, Web Accelerator, TCL programming. I like to dig the root of cause when I immerse in troubleshooting. 
 
 After the TAC role, I moved to F5 APAC consulting team, I am the first one consultant in GCG.As a consultant, I delivered complicate post-sale and pre-sales projects for APAC customers. Appreciate the 4 years’ experience, I am better on time/project management and communications. 
 
