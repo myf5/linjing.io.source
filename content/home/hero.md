@@ -44,4 +44,4 @@ hero_media = ""
 +++
 ## Hey, Welcome, I am **Jing Lin 林静**, Senior Solution Architect at F5.
 
-Over 17 years experience to Application Service and Delivery. Familiar to Loadbalance realm. An advocate of Cloud native. Cloud, Service Mesh, Kubernetes, PaaS, Envoy, NGINX are my attention. Check my technology blogs https://myf5.net
+With over 17 years of experience in application services and delivery, I specialize in the realm of load balancing and cloud-native technologies. My expertise encompasses AI gateways, LLM security, LLM development platforms such as LangChain and Dify, cloud computing, service mesh, Kubernetes, PaaS, Envoy, NGINX, and F5 solutions. Passionate about driving innovation in modern infrastructure, I share insights and technical expertise on my blog: https://myf5.net.
