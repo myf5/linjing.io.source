@@ -60,6 +60,17 @@ date_format = "Jan 2006"
   description = "The first F5 Certified Solution Expert(401) in China. ID: F50000032615"
 
 [[item]]
+  organization = "System Integration Project Management Engineer"
+  organization_url = "https://www.cncf.io"
+  title = "CKA"
+  url = ""
+  certificate_url = ""
+  date_start = "2022-11-05"
+  date_end = ""
+  description = "Qualification of Computer and sfotware professional"
+
+
+[[item]]
   organization = "F5"
   organization_url = "https://www.f5.com/services/certification"
   title = "F5 Certification Series"
