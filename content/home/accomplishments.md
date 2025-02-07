@@ -22,7 +22,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Azure"
   organization_url = "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification"
-  title = "Azure AI Fundamentals "
+  title = "Azure AI Fundamentals"
   url = ""
   certificate_url = ""
   date_start = "2025-02-07"
@@ -87,7 +87,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2010-01-01"
   date_end = "2013-01-01"
-  description = 101,201,301a,301b,302,303"
+  description = "101,201,301a,301b,302,303"
 
 
 [[item]]
