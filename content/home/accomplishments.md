@@ -20,6 +20,16 @@ date_format = "Jan 2006"
 
 
 [[item]]
+  organization = "Azure"
+  organization_url = "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification"
+  title = "Azure AI Fundamentals "
+  url = ""
+  certificate_url = ""
+  date_start = "2025-02-07"
+  date_end = ""
+  description = "Demonstrate fundamental AI related to the development of software and services of Microsoft Azure to create AI solutions."
+
+[[item]]
   organization = "The Open Group"
   organization_url = "https://togaf9-cert.opengroup.org/home-public"
   title = "TOGAF V9.2 Certified"
@@ -77,17 +87,8 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2010-01-01"
   date_end = "2013-01-01"
-  description = "301a，301b，302，303"
+  description = 101,201,301a,301b,302,303"
 
-[[item]]
-  organization = "F5"
-  organization_url = "https://www.f5.com/services/certification"
-  title = "F5 Certification Series"
-  url = ""
-  certificate_url = ""
-  date_start = "2010-01-01"
-  date_end = "2013-01-01"
-  description = "101，201"
 
 [[item]]
   organization = "F5"
